@@ -1,0 +1,15 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"workspaceName": {
+			"value": "syn-cicddemo-ws-dev"
+		},
+		"syn-cicddemo-ws-dev-WorkspaceDefaultSqlServer_connectionString": {
+			"value": ""
+		},
+		"syn-cicddemo-ws-dev-WorkspaceDefaultStorage_properties_typeProperties_url": {
+			"value": "https://adlscicddemotrsdev.dfs.core.windows.net"
+		}
+	}
+}
